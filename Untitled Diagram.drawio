@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T15:43:23.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" version="20.1.1" etag="2E188lT_qaFlS9tUaJKz" type="github"><diagram id="yzsVw-edHArTgmIYKgf_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-22T16:08:08.206Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Ev4VLpMdBy8pxDnG4OOl" version="20.1.1" type="github">
+  <diagram id="yzsVw-edHArTgmIYKgf_" name="Page-1">
+    <mxGraphModel dx="1426" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-2" value="useAppendQs&lt;br&gt;useInitSetTenant&lt;br&gt;useLanguageAndTenantId&lt;br&gt;ApplicationsListingTable&lt;br&gt;UserRolesDescription&lt;br&gt;AppListing&lt;br&gt;TenantSiteSelector&lt;br&gt;AppListing&lt;br&gt;GlobalApps&lt;br&gt;Layout&lt;br&gt;getData&lt;br&gt;TenantSelector&lt;br&gt;LogDetail&lt;br&gt;LogsListing&lt;br&gt;EventHandler&lt;br&gt;CustomAppRouter&lt;br&gt;MainRouter&lt;br&gt;utils&lt;br&gt;application/actions&lt;br&gt;store/applications&lt;br&gt;store/domains-services&lt;br&gt;UserPermissionWrapper" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cpFqGWA5LrsxNhiuCmY3-4" target="cpFqGWA5LrsxNhiuCmY3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-7" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cpFqGWA5LrsxNhiuCmY3-6">
+          <mxGeometry x="-0.2444" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cpFqGWA5LrsxNhiuCmY3-4" target="cpFqGWA5LrsxNhiuCmY3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-10" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cpFqGWA5LrsxNhiuCmY3-9">
+          <mxGeometry x="-0.4154" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-4" value="user has Tenant assigned" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cpFqGWA5LrsxNhiuCmY3-5" target="cpFqGWA5LrsxNhiuCmY3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-25" value="Available&lt;br&gt;Routes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cpFqGWA5LrsxNhiuCmY3-12">
+          <mxGeometry x="-0.375" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cpFqGWA5LrsxNhiuCmY3-5" target="cpFqGWA5LrsxNhiuCmY3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cpFqGWA5LrsxNhiuCmY3-5" target="cpFqGWA5LrsxNhiuCmY3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-5" value="userHasTenants = NO&lt;br&gt;Redirect to Home&lt;br&gt;Omit tenant roles" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-8" value="Current Flow" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-11" value="User Management" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-13" value="Tenant Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cpFqGWA5LrsxNhiuCmY3-14" target="cpFqGWA5LrsxNhiuCmY3-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-14" value="Load Global Apps" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-16" value="Tenant Selector: &lt;br&gt;No Tenants Assigned" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-18" value="Audit Log Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-19" value="Applications Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-20" value="Site Selector:&amp;nbsp;&lt;br&gt;No Sites" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cpFqGWA5LrsxNhiuCmY3-23" target="cpFqGWA5LrsxNhiuCmY3-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-23" value="Do not load Apps by Tenant" style="whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="455" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cpFqGWA5LrsxNhiuCmY3-26" value="Other calls to omitt:&lt;br&gt;permissions by tenant/site" style="whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="455" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
